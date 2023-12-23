@@ -1,0 +1,191 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "useEigen",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "useEigen",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "useGeometry",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "useGeometry",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "visualizeGeometry",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "visualizeGeometry",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "examples",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples",
+					"targetIndexes" : 
+					[
+						0,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						4
+					],
+					"name" : "chapter3",
+					"targetIndexes" : 
+					[
+						0,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "useEigen",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "geometry",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "visualizeGeometry",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "coordinateTransform::@714eac15f71a94114fdf",
+					"jsonFile" : "target-coordinateTransform-Debug-202e462b77c4da83f013.json",
+					"name" : "coordinateTransform",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "eigenGeometry::@4d34965e364686a21cf6",
+					"jsonFile" : "target-eigenGeometry-Debug-90808af79ce48f3797e6.json",
+					"name" : "eigenGeometry",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "eigenMatrix::@c792ae03119963353db9",
+					"jsonFile" : "target-eigenMatrix-Debug-b2a59fa19eb26ec2e49f.json",
+					"name" : "eigenMatrix",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "plotTrajectory::@714eac15f71a94114fdf",
+					"jsonFile" : "target-plotTrajectory-Debug-5689289e983c65ecf083.json",
+					"name" : "plotTrajectory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "visualizeGeometry::@e521967261bda6ba7780",
+					"jsonFile" : "target-visualizeGeometry-Debug-42c1f74d37db81b17eb8.json",
+					"name" : "visualizeGeometry",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/work/study/slambook2/ch3/build",
+		"source" : "/home/work/study/slambook2/ch3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}
